@@ -8,6 +8,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * MainActivity is the main activity for the BillForMeal app.  It allows the user to enter the
+ * total cost of a meal and the number of diners.  The user can then select a tip percentage and
+ * the app will calculate the tip amount per diner. The user can also enter a custom tip percentage
+ * and the app will calculate the tip amount per diner for that percentage.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private EditText totalCostEditText;
