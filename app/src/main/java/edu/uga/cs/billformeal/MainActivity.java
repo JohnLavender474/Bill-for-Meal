@@ -1,12 +1,11 @@
 package edu.uga.cs.billformeal;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * MainActivity is the main activity for the BillForMeal app.  It allows the user to enter the
@@ -14,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
  * the app will calculate the tip amount per diner. The user can also enter a custom tip percentage
  * and the app will calculate the tip amount per diner for that percentage.
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private EditText totalCostEditText;
     private EditText numberOfDinersEditText;
